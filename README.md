@@ -12,10 +12,9 @@ You can find explanation in /src/main/resources/explanation.txt
 There are four solutions: 3 - java 1 - clojure
 The answer on question how to invoke Clojure functions from java also exists there.
 
-To run Clojure function in REPL you need do the following:
+*To run Clojure function in REPL you need do the following:*
+* Run REPL: just run maven command "mvn clojure:repl"
+* Load file in REPL: run following command in REPL (load-file "src/main/clojure/fibonacci.clj")
+* Invoke function: (fib-sum-ev 4000000)
 
-*1 Run REPL: just run maven command "mvn clojure:repl"
-*2 Load file in REPL: run following command in REPL (load-file "src/main/clojure/fibonacci.clj")
-*3 Invoke function: (fib-sum-ev 4000000)
-
-Result will be in REPL.
+Result will be in REPL console.
